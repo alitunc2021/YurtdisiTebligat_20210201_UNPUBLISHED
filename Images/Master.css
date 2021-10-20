@@ -1,0 +1,171 @@
+BODY
+{	MARGIN: 0px;
+	background-color:White;
+	background-image:url('background.gif');
+	background-repeat: repeat;
+	COLOR: #333333;
+    COLOR: black;
+	FONT-WEIGHT: 500;
+	FONT-SIZE: 10px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+H1
+{
+    COLOR: navy;
+    FONT-FAMILY: 'Times New Roman';
+    FONT-SIZE: x-large;
+    FONT-WEIGHT: bolder;
+    TEXT-TRANSFORM: capitalize;
+}
+H2
+{
+    COLOR: navy;
+    FONT-FAMILY: 'Times New Roman';
+    FONT-SIZE: large;
+    FONT-WEIGHT: bolder;
+    TEXT-TRANSFORM: capitalize;
+}
+H3
+{
+    COLOR: navy;
+    FONT-FAMILY: 'Times New Roman';
+    FONT-SIZE: large;
+    FONT-WEIGHT: lighter;
+    TEXT-TRANSFORM: capitalize;
+}
+.sf {FONT-SIZE: 9px; FONT-FAMILY: Tahoma,Verdana, Arial, Helvetica, sans-serif;}
+
+.hfont1	{	FONT-WEIGHT: bold;
+			FONT-SIZE: 11px;
+			COLOR: white;
+			FONT-FAMILY: 'Verdana','Geneva','Arial','Helvetica','sans-serif';
+		}
+TEXTAREA {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	BORDER-LEFT: #999999 1px solid;
+	COLOR: #333333;
+	BORDER-BOTTOM: #999999 1px solid;
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+INPUT
+INPUT {
+	border: 1px solid #999999;
+    FONT-WEIGHT: 700;
+	FONT-SIZE: 10px;
+	COLOR: #333333;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+}
+{
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	BORDER-LEFT: #999999 1px solid; 
+	COLOR: #333333;
+	BORDER-BOTTOM: #999999 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.button {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	FONT-WEIGHT: 700;
+	BORDER-LEFT: #999999 1px solid;
+	COLOR: #ffffff;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-COLOR: #bbbbbb	                  
+}
+
+.label{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: #000099;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.box{
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.boxtop{
+    BORDER-TOP: black 1px solid;
+}
+.boxlefttop{
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+}
+.boxlefttopright{
+	BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+}
+.boxlefttopbottom{
+    BORDER-LEFT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+.zebra0{
+   BACKGROUND-COLOR: #eefdff;
+}
+.zebra1{
+    BACKGROUND-COLOR: #ddffff
+}
+
+Button {
+	cursor:hand;
+	BACKGROUND-COLOR: #f4f7c1;
+	
+}
+.inputButton {
+	cursor:hand;
+	BACKGROUND-COLOR: #f4f7c1;
+	
+}
+.inputSubmit {
+	cursor:hand;
+	BACKGROUND-COLOR: #f4f7c1;
+	
+}
+.inputSubmitHover {
+	cursor:hand;
+	BACKGROUND-COLOR: #66ffff;
+}
+
+.pg9 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px}
+.pg9 a {color : #00008B; text-decoration : none; }
+.pg9 a:hover {color : Red; text-decoration : underline;}
+.pg10Bold {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+.pg10BoldWhite { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold ; color: #FFFFFF}
+
+.h10{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color:#447cc1;font-weight: bold;}
+.h12{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color:#333399;}
+
+
+.pg10BoldRed { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold ; color: #FF0000}
+
+.tableHeader { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold ; color: #FFFFFF; background-color: #447cc1;}
+.tableText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal ; color: #000000; background-color: #d5e1f0;}
+.ErrorMsg { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold ; color: red;}
+
+
+.menuItem { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color : #333399;}
+a:visited 	{text-decoration: underline; color:Navy}
+a:hover 	{text-decoration: underline; color:red;}
+/*
+a  {color : #333333; text-decoration : none;}
+a:hover {color : Red; text-decoration : underline;}
+*/
+.loginLbl { font-weight:bold; }
+.td1{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:white;font-weight: bold;background-color: #447cc1;}
+.td2{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000;font-weight: bold;background-color: #d5e1f0;}
+Caption {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight:bold;background-color:#F5F5F5; border-top:1px solid; border-right:1px solid; border-left:1px solid}
+
+.chklist {width:100%;}

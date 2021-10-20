@@ -1,0 +1,44 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="YurtdisiTebligat.masterPage" %>
+
+<%@ Register Src="footer.ascx" TagName="footer" TagPrefix="uc2" %>
+<%@ Register Src="header.ascx" TagName="header" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>TEBLIGAT</title>
+    <link href="Images/Master.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="1" style="width: 790px; border-collapse:collapse; margin:0px auto; background-color:#FFF">
+            <tr>
+                <td colspan="2" style="height: 38px; width: 100%;" >
+                    <uc1:header id="Header1" runat="server">
+                    </uc1:header>
+                </td>
+            </tr>
+            
+            <tr> <td>
+             
+            </td></tr>
+            
+            <tr>                  
+                <td style="vertical-align:top;background:#FFF;padding:5px;width:790px">    <!--width: 590px;-->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="width: 100%">
+                    <uc2:footer id="Footer1" runat="server">
+                    </uc2:footer>
+                </td>
+            </tr>
+        </table>                    
+    </div>
+    </form>
+</body>
+</html>
